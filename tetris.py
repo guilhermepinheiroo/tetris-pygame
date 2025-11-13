@@ -149,9 +149,9 @@ def game_over(tela, pontos, recorde):
                     sys.exit()
 
 def main():
-    pygame.init()
+    pygame.init() 
     tela = pygame.display.set_mode(tamanho_tela)
-    pygame.display.set_caption("Tetris com Matrizes 🧱")
+    pygame.display.set_caption("Tetris")
     relogio = pygame.time.Clock()
     fixa = {}
     peca_atual = Peca(3, 0, random.choice(formas))
